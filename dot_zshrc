@@ -1,0 +1,4 @@
+export PROMPT_COMMAND="echo -ne '\033]0;${USER}@${HOST}\007';$PROMPT_COMMAND"
+precmd() { eval "$PROMPT_COMMAND" }
+
+alias cm=chezmoi

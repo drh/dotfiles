@@ -1,0 +1,14 @@
+[user]
+	name = David R. Hanson
+	email = drh@drhanson.net
+[push]
+	default = simple
+[core]
+	editor = code --wait
+	excludesFile = ~/.gitignore
+[init]
+	defaultBranch = main
+[credential]
+	helper = /usr/local/share/gcm-core/git-credential-manager
+[credential "https://dev.azure.com"]
+	useHttpPath = true
