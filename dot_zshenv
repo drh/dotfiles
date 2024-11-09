@@ -6,5 +6,5 @@ if [ -f '/Users/drh/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/drh/google-
 # The next line enables shell command completion for gcloud.
 if [ -f '/Users/drh/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/drh/google-cloud-sdk/completion.zsh.inc'; fi
 
-export PATH="~/bin:~/go/bin:/usr/local/go/bin:$PATH";
-export EDITOR="code --wait";
+export PATH=~/bin:~/go/bin:/usr/local/go/bin:$PATH
+export EDITOR="code --wait"
