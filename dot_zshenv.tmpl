@@ -1,0 +1,5 @@
+{{ if stat "/usr/local/bin" -}} PATH="/usr/local/bin:$PATH" {{- end }}
+{{ if lookPath "/opt/homebrew/bin/brew" }} {{- output "/opt/homebrew/bin/brew" "shellenv" -}} {{ end }}
+export PATH=~/bin:~/go/bin:$PATH
+
+export EDITOR="code --wait"
