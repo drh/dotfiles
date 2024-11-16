@@ -1,2 +1,3 @@
 LICENSE
-key.txt.age
+*.age
+.DS_Store
