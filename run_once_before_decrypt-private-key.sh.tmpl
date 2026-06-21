@@ -1,7 +1,0 @@
-#!/bin/sh
-
-if [ ! -f "${HOME}/.config/chezmoi/key.txt" ]; then
-    mkdir -p "${HOME}/.config/chezmoi"
-    echo '{{ onepasswordRead "op://Private/AGE Keys/add more/private key" }}' >"${HOME}/.config/chezmoi/key.txt"
-    chmod 600 "${HOME}/.config/chezmoi/key.txt"
-fi
