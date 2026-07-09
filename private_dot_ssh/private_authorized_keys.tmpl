@@ -1,2 +1,3 @@
-{{- include "private_dot_ssh/id_ed25519.pub" }}
-{{- include "private_dot_ssh/id_rsa.pub" }}
+{{ range gitHubKeys "drh" }}
+{{- .Key }}
+{{ end }}

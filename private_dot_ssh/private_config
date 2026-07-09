@@ -1,0 +1,35 @@
+Host rpi raspberrypi.local
+    HostName raspberrypi.local
+    PreferredAuthentications publickey,password,keyboard-interactive
+    StrictHostKeyChecking no
+
+Host davesm4
+    HostName mayleesm4mini.local
+    StrictHostKeyChecking no
+
+Host mayleesm4
+    HostName mayleesm4mini.local
+    StrictHostKeyChecking no
+
+Host macbookair
+    HostName mayleesmacbookair.local
+    StrictHostKeyChecking no
+
+Host ultra
+    HostName 192.168.2.1
+    User root
+    PreferredAuthentications password,keyboard-interactive
+
+Host ccvidmar
+    HostName 207.135.232.30
+    User CC
+    PreferredAuthentications password,keyboard-interactive
+    Compression yes
+
+Host *
+    User drh
+    ForwardAgent yes
+    Compression yes
+    CheckHostIP no
+    PreferredAuthentications publickey
+    IdentityAgent "~/Library/Group Containers/2BUA8C4S2C.com.1password/t/agent.sock"
