@@ -4,7 +4,7 @@ Host rpi raspberrypi.local
     StrictHostKeyChecking no
 
 Host davesm4
-    HostName mayleesm4mini.local
+    HostName davesm4mini.local
     StrictHostKeyChecking no
 
 Host mayleesm4
